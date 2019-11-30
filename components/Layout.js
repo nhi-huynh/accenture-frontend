@@ -29,7 +29,7 @@ const Layout = ({ children, title, hideNav }) => (
         <Nav currentTitle={title}/>
     }
     
-    <div className='font-sans text-gray-900'>
+    <div className='font-sans text-gray-900 tracking-wide'>
     	{children}
     </div>
 
@@ -44,7 +44,7 @@ const Layout = ({ children, title, hideNav }) => (
 
 
 const Footer = () => 
-  <footer className="bg-gray-900 text-gray-500 border-t border-gray-800 font-sans">
+  <footer className="bg-gray-900 text-gray-500 border-t border-gray-800 font-sans font-medium tracking-wide">
     <div className="mx-auto container px-4 py-12">
       <div className="px-3 flex items-center">
         <div className="flex-grow text-sm">

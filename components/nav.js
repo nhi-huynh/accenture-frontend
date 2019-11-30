@@ -16,7 +16,7 @@ import Link from 'next/link'
 class Nav extends React.Component {
   render () {
     return (
-      <div className="bg-red-300 header-background">
+      <div className="bg-red-300 header-background tracking-wide">
         <nav className="container pt-12 sm:pt-18 pb-4 sm:pb-18 px-6 mx-auto flex">
           <ul className="flex list-none items-center w-full">
             <li className="pr-6"><a className="font-bold text-lg">DeFiBank</a></li>

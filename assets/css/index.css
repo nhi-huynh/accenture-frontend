@@ -25,7 +25,7 @@ body {
 }
 
 button {
-    @apply outline-none appearance-none !important
+    @apply outline-none appearance-none tracking-wide !important
 }
 
 input, textarea, select {
