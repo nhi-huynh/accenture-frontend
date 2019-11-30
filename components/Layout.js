@@ -8,7 +8,7 @@ import '../assets/css/index.css'
 * Layout component to contain each page.
 **/
 
-const Layout = ({ children, title }) => (
+const Layout = ({ children, title, hideNav }) => (
   <>
     <Head>
       <title>{title} | DeFiBank</title>
@@ -22,13 +22,23 @@ const Layout = ({ children, title }) => (
       <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon"/>
     </Head>
 
-    <Nav currentTitle={title}/>
+    {
+      hideNav ?
+        <></>
+        :
+        <Nav currentTitle={title}/>
+    }
     
     <div className='font-sans text-gray-900'>
     	{children}
     </div>
 
-    <Footer/>
+    {
+      hideNav ?
+        <></>
+        :
+        <Footer/>
+    }
   </>
 )
 
@@ -39,6 +49,11 @@ const Footer = () =>
       <div className="px-3 flex items-center">
         <div className="flex-grow text-sm">
           <span className="mr-5">Copyright © {new Date().getFullYear()} DeFiBank, Pty Ltd</span>
+        </div>
+        <div className="ml-auto text-sm text-red-300">
+          <Link href="/info-rad">
+            <a title="Admin Panel/Info Rad">Admin</a>
+          </Link>
         </div>
       </div>
     </div>
