@@ -22,7 +22,7 @@ const Layout = ({ children, title }) => (
       <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon"/>
     </Head>
 
-    <Nav/>
+    <Nav currentTitle={title}/>
     
     <div className='font-sans text-gray-900'>
     	{children}
@@ -34,7 +34,7 @@ const Layout = ({ children, title }) => (
 
 
 const Footer = () => 
-  <footer className="bg-gray-900 text-gray-500 border-t font-sans">
+  <footer className="bg-gray-900 text-gray-500 border-t border-gray-600 font-sans">
     <div className="mx-auto container px-4 py-12">
       <div className="px-3 flex items-center">
         <div className="flex-grow text-sm">

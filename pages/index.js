@@ -9,7 +9,7 @@ const Home = () => (
     <div className="bg-blue-300">
       <div className="container pt-8 sm:pt-16 pb-10 sm:pb-24 px-6 mx-auto">
         <div>
-          <h1 className="text-3xl font-bold mb-2">High Interest Rate Deposits</h1>
+          <h1 className="text-3xl font-bold mb-2">High Interest Rate Accounts</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
           <br/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
@@ -41,11 +41,12 @@ const Introduction = () =>
 const First = () =>
   <div className="container pt-8 sm:pt-16 pb-10 sm:pb-24 px-6 mx-auto">
     <div>
-      <h1 className="text-3xl font-bold mb-2">High Interest Rate Deposits</h1>
+      <h1 className="text-3xl font-bold mb-2">High Interest Rate Accounts</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
       <br/>
       <p>Excepteur sint occaecat cupidatat non proident, sunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
       <br/>
     </div>
   </div>
+
 export default Home
