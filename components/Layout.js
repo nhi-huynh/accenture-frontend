@@ -32,7 +32,7 @@ const Layout = ({ children, title }) => (
 
 
 const Footer = () => 
-	<footer className="font-sans">
+	<footer className="font-sans p-10">
     <h3>Footer</h3>
 	</footer>
 
