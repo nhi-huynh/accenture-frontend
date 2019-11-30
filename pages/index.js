@@ -22,7 +22,7 @@ const Home = () => (
 
 const Introduction = () => 
 <>
-    <div className="bg-red-300">
+    <div className="bg-red-300 header-background">
       <div className="container pt-12 sm:pt-18 pb-10 sm:pb-20 px-6 mx-auto flex">
         <div>
           <header className="mb-4">
