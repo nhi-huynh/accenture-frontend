@@ -21,6 +21,8 @@ const Layout = ({ children, title }) => (
       <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon"/>
       <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon"/>
     </Head>
+
+    <Nav/>
     
     <div className='font-sans text-gray-900'>
     	{children}
@@ -32,8 +34,14 @@ const Layout = ({ children, title }) => (
 
 
 const Footer = () => 
-	<footer className="font-sans p-10">
-    <h3>Footer</h3>
-	</footer>
+  <footer className="bg-gray-900 text-gray-500 border-t font-sans">
+    <div className="mx-auto container px-4 py-12">
+      <div className="px-3 flex items-center">
+        <div className="flex-grow text-sm">
+          <span className="mr-5">Copyright © {new Date().getFullYear()} DeFiBank, Pty Ltd</span>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 export default Layout
