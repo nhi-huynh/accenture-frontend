@@ -1,0 +1,14 @@
+{
+	"version": 2,
+	"name": "defi-bank",
+	"builds": [
+		{ 
+			"src": "next.config.js", 
+			"use": "@now/next" 
+		}, 
+		{
+			"src": "public/**", 
+			"use": "@now/static"
+		}
+	]
+}
