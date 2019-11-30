@@ -78,7 +78,7 @@ const Savers = () =>
   <div className="grid gc-6 gc-gap-10">
     {
       accountList.slice(0, 5).map((transaction, index) => (
-        <div key={index} className="cursor-pointer p-4 border border-gray-900 hover:bg-gray-300 mh-12 text-gray-900 rounded">
+        <div key={index} className={transaction.vendor === "DeFi Saver" ? "cursor-pointer p-4 border border-gray-900 bg-gray-300 mh-12 text-gray-900 rounded" : "bg-white hover:bg-gray-200 cursor-pointer p-4 border border-gray-900 mh-12 text-gray-900 rounded"}>
           <div className="flex items-center">
             <div className="bg-gray-900 rounded-sm w-10 h-10 mr-2 flex items-center justify-center">
               <h3 className="text-white font-medium tracking-wide">PS</h3>
@@ -107,8 +107,10 @@ class DeFiDeposit extends React.Component {
   render () {
     return (
       <div className="bg-gray-900 text-white">
-        <div className="container pt-24 sm:pt-18 pb-12 sm:pb-24 px-6 mx-auto flex items-center">
+        <div className="container pt-24 sm:pt-18 pb-12 sm:pb-24 px-6 mx-auto flex items-start">
           <div className="flex-initial mr-12">
+          <h3 className="font-medium">Selected Saver:</h3>
+          <br/>
             <div className="cursor-pointer p-4 border border-white bg-white hover:bg-gray-300 mh-12 w-64 text-gray-900 rounded ">
               <div className="flex items-center">
                 <div className="bg-gray-900 rounded-sm w-10 h-10 mr-2 flex items-center justify-center">
