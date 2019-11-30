@@ -1,7 +1,12 @@
 {
   "name": "accenture-frontend",
   "version": "0.1.0",
+  "description": "DeFi Banking Front-end for the Accenture 2019 Hackathon.",
   "private": true,
+    "repository": {
+    "type": "git",
+    "url": "git://github.com/p-skal/accenture-frontend.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
