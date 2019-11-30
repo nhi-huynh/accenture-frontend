@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "description": "DeFi Banking Front-end for the Accenture 2019 Hackathon.",
   "private": true,
-    "repository": {
+  "repository": {
     "type": "git",
-    "url": "git://github.com/p-skal/accenture-frontend.git"
+    "url": "git://github.com/nhi-huynh/accenture-frontend.git"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,8 +13,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "9.1.4",
     "react": "16.12.0",
     "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.2",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.1.4"
   }
 }

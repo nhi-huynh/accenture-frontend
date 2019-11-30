@@ -1,6 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
 
+/**
+* Navigation component to manage the navbar of each page.
+**/
+
 const links = [
   { href: 'https://zeit.co/now', label: 'ZEIT' },
   { href: 'https://github.com/zeit/next.js', label: 'GitHub' },

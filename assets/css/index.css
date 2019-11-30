@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    @apply bg-red-100
+}
+
+* {
+    box-sizing: border-box;
+}
