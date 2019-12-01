@@ -51,7 +51,7 @@ const InfoRad = () => (
           </div>
         </div>
         <div className="flex flex-col rounded py-4 px-4" style={{backgroundColor: "rgba(255, 255, 255, 0.05)"}}>
-          <h3 className="text-sm font-medium rounded py-2 px-4 mr-auto" style={{backgroundColor: "rgba(255, 255, 255, 0.05)"}}>Customer Breakdown</h3>
+          <h3 className="text-sm font-medium rounded py-2 px-4 mr-auto" style={{backgroundColor: "rgba(255, 255, 255, 0.05)"}}>Predicted vs Actual BTC Price</h3>
            <br/>
           <LineChartBtc/>
         </div>

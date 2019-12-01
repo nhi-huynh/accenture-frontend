@@ -196,7 +196,7 @@ class DeFiDeposit extends React.Component {
             </div>
             <div className="cursor-pointer p-4 py-2 border border-white bg-white hover:bg-gray-300 mh-12 w-64 text-gray-900 rounded flex items-center">
               <small className="font-medium">Interest Rate:</small>
-              <small className="text-green-500 font-medium text-lg ml-auto">10%</small>
+              <small className="text-green-500 font-medium text-lg ml-auto">15.6%</small>
             </div>
             <br/>
             <div className="rounded-lg bg-gray-800 text-base font-medium py-3 px-4 flex">
