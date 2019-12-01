@@ -43,7 +43,7 @@ const Introduction = () =>
 const Asd = () =>
   <div className="bg-gray-900 text-white font-sans">
     <div className="mx-auto container px-4 py-6">
-      <div className="py-6 px-2 grid gc-4 items-center">
+      <div className="py-6 px-2 grid gc-4 items-start">
         <div className="flex flex-col">
           <span className="mr-5 font-bold text-4xl">No Fees</span>
           <p className="text-red-300">No monthly fee or
@@ -59,8 +59,8 @@ const Asd = () =>
           <small className="text-gray-300">* Conditions apply</small>
         </div>
         <div className="flex flex-col">
-          <span className="mr-5 font-bold text-4xl">15.5%</span>
-          <p className="text-red-300">Per annum,<br/> on DeFi savers</p>
+          <span className="mr-5 font-bold text-4xl">Dynamic</span>
+          <p className="text-red-300">Fixed Term Accounts<br/>Available</p>
           <br/>
         </div>
         <div className="flex flex-col">
@@ -75,7 +75,7 @@ const Asd = () =>
 const First = () =>
   <div className="container pt-8 sm:pt-16 pb-10 sm:pb-24 px-6 mx-auto">
     <div>
-      <h1 className="text-3xl font-bold mb-2">High Interest Rate Accounts</h1>
+      <h1 className="text-3xl font-bold mb-2">Variable-return, Fixed Term Accounts</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
       <br/>
       <p>Excepteur sint occaecat cupidatat non proident, sunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
