@@ -130,3 +130,53 @@ input, textarea, select {
 .gr-gap-12 {
     grid-row-gap: 12px;
 }
+
+
+/* Graphs */
+
+text.tickLabel {
+    @apply text-gray-600 fill-current text-sm !important;
+}
+
+/* Hide vertical lines and the domain (xy axis) lines */
+.Axis:first-child line.gridLine, path.domain{
+    @apply text-transparent stroke-current !important;
+}
+
+/* Hide y-axis dashes/domain */
+.axes g.Axis:last-child .ticks .tick .labelGroup line.tickline{
+    @apply text-transparent stroke-current !important;
+}
+
+.axes g.Axis:first-child .ticks {
+    display: none !important;
+}
+
+.tick line.gridLine {
+    stroke: rgba(255, 255, 255, 0.05) !important;
+}
+
+.tick:first-child line.gridLine {
+    stroke: none !IMPORTANT;
+}
+
+.Series g:first-child path {
+    @apply text-red-300 stroke-current !important;
+}
+
+.Series g:last-child path {
+    @apply text-gray-200 stroke-current !important;
+}
+
+.Series .series.bar rect {
+    rx: 0.25rem !important;
+    ry: 0.25rem !important;
+}
+
+.Series .series.bar:nth-child(even) rect {
+    fill: theme('colors.red.300') !important;
+}
+
+.Series .series.bar:nth-child(odd) rect {
+    fill: theme('colors.gray.200') !important;
+}
